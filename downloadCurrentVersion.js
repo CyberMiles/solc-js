@@ -61,5 +61,5 @@ function downloadBinary (outputName, url, expectedHash) {
 
 console.log('Downloading correct solidity binary...');
 
-var expectedHash = '0xd057f49a3f3b522e25913048742528a186ca38011d50c8c3ecbc451159a1420a';
-downloadBinary('soljson.js', 'https://github.com/CyberMiles/lity/releases/download/v1.2.4/lity-v1.2.4-js', expectedHash);
+var expectedHash = '0x7baa52c79e756a13c99270f7f88719279eca86fba661dd39dec867ba3ac16dde';
+downloadBinary('soljson.js', 'https://github.com/CyberMiles/lity/releases/download/v1.2.7-pre/lity-pre-v1.2.7-js', expectedHash);
